@@ -175,14 +175,7 @@ html {
 /* End-Navigation */
 
 /* slider */
-#slider {
-    position: relative;
-    padding-top: 50%; 
-    background: url(img/slider/slider_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 46px;
-}
+
 
 .slider-content {
     position: absolute;
