@@ -179,7 +179,7 @@ html {
     position: relative;
     /* ở phần này tôi đã quên không đặt kích thước cho ảnh lên ảnh đã không hiện... Xin lỗi cuộc đời */
     padding-top: 50%; 
-    background: url(img/slider/slider_1.jpg) top center / cover no-repeat;
+    background: url(/img/slider/slider_1.jpg) top center / cover no-repeat;
     margin-top: 46px;
 }
 
