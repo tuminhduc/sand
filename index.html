@@ -38,22 +38,76 @@
         </div>
 
         <style>
-                        #slider {
-                position: relative;
-                padding-top: 50%; 
-                background: url(img/slider/slider_1.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                margin-top: 46px;
-                }
+            #slider__input2:checked ~ .slider__imgs > .img-item {
+  transform: translateX(-100%) !important;
+}
+#slider__input3:checked ~ .slider__imgs > .img-item {
+  transform: translateX(-200%) !important;
+}
+#slider__input4:checked ~ .slider__imgs > .img-item {
+  transform: translateX(-300%) !important;
+}
+#slider__input1:checked ~ .slider__dots > .dot-item:nth-child(1),
+#slider__input2:checked ~ .slider__dots > .dot-item:nth-child(2),
+#slider__input3:checked ~ .slider__dots > .dot-item:nth-child(3),
+#slider__input4:checked ~ .slider__dots > .dot-item:nth-child(4) {
+  background: rgb(199, 199, 199);
+}
+#slider__input1:checked ~ .slider__buttons > .slider__btn:nth-child(4),
+#slider__input1:checked ~ .slider__buttons > .slider__btn:nth-child(5),
+#slider__input1:checked ~ .slider__buttons > .slider__btnx:nth-child(6),
+#slider__input2:checked ~ .slider__buttons > .slider__btn:nth-child(3),
+#slider__input2:checked ~ .slider__buttons > .slider__btn:nth-child(5),
+#slider__input3:checked ~ .slider__buttons > .slider__btn:nth-child(4),
+#slider__input3:checked ~ .slider__buttons > .slider__btn:nth-child(2),
+#slider__input4:checked ~ .slider__buttons > .slider__btn:nth-child(3),
+#slider__input4:checked ~ .slider__buttons > .slider__btnx:nth-child(1),
+#slider__input4:checked ~ .slider__buttons > .slider__btn:nth-child(2) {
+  display: none;
+}
+#slider__input4:checked ~ .slider__buttons > .slider__btnx,
+#slider__input1:checked ~ .slider__buttons > .slider__btnx {
+  display: block;
+}
         </style>
 
-        <div id="slider">
-            <div class="slider-content">
-                <h2 class="slider-heading">New York</h2>
-                <p class="slider-sub-sub-heading">The atmosphere in New York is lorem ipsum</p>
+        <div class="all__slider">
+            <div class="slider__container">
+              <!--__________INPUT_________ -->
+              <input type="radio" name="slider" id="slider__input1" checked />
+              <input type="radio" name="slider" id="slider__input2" />
+              <input type="radio" name="slider" id="slider__input3" />
+              <input type="radio" name="slider" id="slider__input4" />
+      
+              <!-- _________IMAGES___________-->
+              <div class="slider__imgs">
+                <img class="img-item" src="./img/slider/cat.jpg" />
+                <img class="img-item" src="./img/slider/slider_2.jpg" />
+                <img class="img-item" src="./img/slider/slider_1.jpg" />
+                <img class="img-item" src="./img/slider/owlcloseup.jpg" />
+              </div>
+              <!-- _________DOTS________ -->
+              <div class="slider__dots">
+                <label class="dot-item" for="slider__input1"></label>
+                <label class="dot-item" for="slider__input2"></label>
+                <label class="dot-item" for="slider__input3"></label>
+                <label class="dot-item" for="slider__input4"></label>
+              </div>
+              <!-- _____SLIDER_BUTTON____ -->
+              <div class="slider__buttons">
+                <label for="slider__input4" class="slider__btnx"></label>
+                <label for="slider__input1" class="slider__btn"></label>
+                <label for="slider__input2" class="slider__btn"></label>
+                <label for="slider__input3" class="slider__btn"></label>
+                <label for="slider__input4" class="slider__btn"></label>
+                <label for="slider__input1" class="slider__btnx"></label>
+                <div class="icon__button">
+                  <i class="icon"><</i>
+                  <i class="icon">></i>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
         <!-- End-slider -->
 
         <div id="content">
