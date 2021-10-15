@@ -173,7 +173,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(./assets/img/thumb-1920-833976.jpg) top center / cover no-repeat ;
+    
 
 }
 
@@ -232,7 +232,7 @@ html {
 }
 
 #member-img {
-    background: url(./assets/img/naruto.jpg) top center / cover no-repeat;
+    /* background: url(./assets/img/naruto.jpg) top center / cover no-repeat; */
     position: relative;
     width: 200px;
     height: 200px;
@@ -240,7 +240,7 @@ html {
 }
 
 #member-img2 {
-    background: url(./assets/img/kakashi.jpg) top center / cover no-repeat;
+    /* background: url(./assets/img/kakashi.jpg) top center / cover no-repeat; */
     position: relative;
     width: 200px;
     height: 200px;
@@ -248,7 +248,7 @@ html {
 }
 
 #member-img3 {
-    background: url(./assets/img/Rock_Lee.jpg) top center / cover no-repeat;
+    /* background: url(./assets/img/Rock_Lee.jpg) top center / cover no-repeat; */
     position: relative;
     width: 200px;
     height: 200px;
@@ -338,7 +338,7 @@ html {
 }
 
 .place-img1 {
-    background: url(./assets/img/Konohagakure.jpg);
+    /* background: url(./assets/img/Konohagakure.jpg); */
     height: 200px;
     background-size: cover;
     background-position: center;
@@ -346,7 +346,7 @@ html {
 }
 
 .place-img2 {
-    background: url(./assets/img/lang_cat.png);
+    /* background: url(./assets/img/lang_cat.png); */
     height: 200px;
     background-size: cover;
     background-position: center;
@@ -354,7 +354,7 @@ html {
 }
 
 .place-img3 {
-    background: url(./assets/img/lang-suong-mu.png);
+    /* background: url(./assets/img/lang-suong-mu.png); */
     height: 200px;
     background-size: cover;
     background-position: center;
