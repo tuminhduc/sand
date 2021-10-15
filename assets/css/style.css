@@ -141,7 +141,7 @@ html {
     display: none;
     position: absolute;
     min-width: 160px;
-    background: url(./assets/img/subnav-background.jpg) top center / cover no-repeat;
+    background: url(assets/img/subnav-background.jpg) top center / cover no-repeat;
     background-color: rgba(245, 212, 170, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
