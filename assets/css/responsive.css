@@ -13,7 +13,67 @@
 /* Mobile */
 
 @media (max-width: 740px) {
+
+    .s-mt8 {
+        margin-top: 8px;
+    }
+
+    .s-width-full,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 10px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    .subnav li a {
+        padding: 1px 41px;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .s-img-team {
+        text-align: center;
+    }
+
+    .img-team {
+        width: 60%;
+    }
+
+    .member-name {
+        transform: translateX(40%);
+    }
     
+    .infor-member {
+        left: 85px;
+    }
 }
 
 
