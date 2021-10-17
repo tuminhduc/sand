@@ -74,6 +74,10 @@
     .infor-member {
         left: 85px;
     }
+
+    .modal-container {
+        min-width: 90%;
+    }
 }
 
 
