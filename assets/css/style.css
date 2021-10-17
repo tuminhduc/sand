@@ -197,6 +197,7 @@ html {
 
 .content-section {
     max-width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
