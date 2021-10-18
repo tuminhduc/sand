@@ -248,7 +248,7 @@ html {
 }
 /* img-member */
 
-
+.kure-name,
 .member-name {
     padding: 15px 0;
     display: inline-block;
@@ -369,6 +369,7 @@ html {
     color: rgb(248, 246, 244);
     border-radius: 10px;
     padding: 16px;
+    bottom: 5px;
     display: none;
     animation: fadePlace ease 0.5s;
 }
@@ -508,6 +509,15 @@ html {
 .contact-info {
     font-size: 18px;
     line-height: 1.6;
+}
+
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-info p [class*="ti-"] {

@@ -72,6 +72,11 @@
     
     .infor-member {
         left: 85px;
+        margin-left: -25px;
+    }
+
+    .kure-img {
+        padding: 8px 0;
     }
 
 }
