@@ -1,20 +1,18 @@
 /* pc */
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     
 }
 
 /* tablet */
 
-@media (min-width: 740px) and (max-width: 1023px) {
-    .modal-container {
-        height: 40%;
-    }
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
 }
 
 /* Mobile */
 
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     .s-mt8 {
         margin-top: 8px;
@@ -70,18 +68,12 @@
     }
 
     .member-name {
-        transform: translateX(40%);
     }
     
     .infor-member {
         left: 85px;
     }
 
-    .modal-container {
-    
-        min-width: 90%;
-        
-    }
 }
 
 
