@@ -1,7 +1,9 @@
 /* pc */
 
 @media (min-width: 64em) {
-    
+    .kure-name {
+        margin-left: 37%;
+    }
 }
 
 /* tablet */
@@ -77,11 +79,14 @@
 
     .kure-img {
         padding: 8px 0;
+        margin-left: 40%;
     }
 
     .place-section {
         bottom: 15px;
     }
+
+
 
 }
 
