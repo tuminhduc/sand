@@ -7,7 +7,9 @@
 /* tablet */
 
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    .modal-container {
+        height: 40%;
+    }
 }
 
 /* Mobile */
@@ -75,11 +77,11 @@
         left: 85px;
     }
 
-    /* .modal-container {
+    .modal-container {
     
-        width: 80%;
-        height: 60%;
-    } */
+        min-width: 90%;
+        
+    }
 }
 
 
